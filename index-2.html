@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
+    <title>by-train</title>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Font -->
+    <link rel="stylesheet" href="./fonts/helvetica-neue-5/style.css">
+    <link rel="stylesheet" href="./fonts/San Francisco Pro Display/style.css">
+    <link rel="stylesheet" href="./fonts/SF Pro Rounded/style.css">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+
+        <!-- Header -->
+        <header class="header">
+            <div class="main_container header__container">
+                <div class="header__left">
+                    <a href="/" class="header__logo">
+                        <img src="./images/header_logo.svg" alt="">
+                    </a>
+                    <ul class="header__navs">
+                        <li>
+                            <a href="#">Аэроэкспресс</a>
+                        </li>
+                        <li>
+                            <a href="#">Мои заказы</a>
+                        </li>
+                        <li>
+                            <a href="#">Вокзалы</a>
+                        </li>
+                        <li>
+                            <a href="#">Профиль</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__right">
+                    <a href="#" class="account">
+                        <img src="./images/user.svg" alt="">
+                    </a>
+                    <label for="dark_mode" class="darkmode_btn">
+                        <input type="checkbox" name="darkmode" checked id="dark_mode">
+                        <span></span>
+                        <img src="./images/moon.svg" alt="" class="moon">
+                        <img src="./images/sun.svg" alt="" class="sun">
+                    </label>
+                </div>
+            </div>
+        </header>
+        <!-- Header end -->
+
+        <!-- Menu -->
+        <ul class="menu">
+            <li>
+                <a href="#" class="active">
+                    <img src="./images/search_nav_1.svg" alt="">
+                    <img src="./images/search_nav_1_yellow.svg" class="active" alt="">
+                    <span>ЖД билеты</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/search_nav_2.svg" alt="">
+                    <img src="./images/search_nav_2_yellow.svg" class="active" alt="">
+                    <img src="" alt="">
+                    <span>Туры</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/search_nav_3.svg" alt="">
+                    <img src="./images/search_nav_3_yellow.svg" class="active" alt="">
+                    <img src="" alt="">
+                    <span>Отели</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="menu_more menu_modal__open">
+                    <img src="./images/more.svg" alt="">
+                    <img src="./images/more.svg" class="active" alt="">
+                    <img src="" alt="">
+                    <span>Ещё</span>
+                </a>
+            </li>
+        </ul>
+        <!-- Menu end -->
+
+        <!-- Menu modal -->
+        <div class="menu_modal">
+            <div class="menu_modal__bg"></div>
+            <div class="menu_modal__content">
+                <button class="menu_modal__close"></button>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="./images/menu_nav_1.svg" alt="">
+                            <span>Профиль</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/menu_nav_2.svg" alt="">
+                            <span>Избранное</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/menu_nav_3.svg" alt="">
+                            <span>Авиабилеты</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/menu_nav_4.svg" alt="">
+                            <span>Блог</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/menu_nav_5.svg" alt="">
+                            <span>Вокзалы</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/menu_nav_6.svg" alt="">
+                            <span>Автобусы</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Menu modal end -->
+
+        <main>
+
+            <!-- Home -->
+            <section class="home">
+            </section>
+            <!-- Home end -->
+
+            <!-- Search -->
+            <section class="search">
+                <div class="main_container">
+                    <h1 class="search__title">Поиск билетов на поезд</h1>
+                    <h5 class="search__subtitle">16 лет помогаем вам путешествовать</h5>
+
+                    <!-- Navs -->
+                    <ul class="search__navs">
+                        <li>
+                            <a href="#" class="active">
+                                <img src="./images/search_nav_1.svg" alt="">
+                                <img src="./images/search_nav_1_active.svg" class="active" alt="">
+                                <span>ЖД билеты</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/search_nav_2.svg" alt="">
+                                <img src="./images/search_nav_2_active.svg" class="active" alt="">
+                                <img src="" alt="">
+                                <span>Туры</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/search_nav_3.svg" alt="">
+                                <img src="./images/search_nav_3_active.svg" class="active" alt="">
+                                <img src="" alt="">
+                                <span>Отели</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/search_nav_4.svg" alt="">
+                                <img src="./images/search_nav_4_active.svg" class="active" alt="">
+                                <img src="" alt="">
+                                <span>Автобусы</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/search_nav_5.svg" alt="">
+                                <img src="./images/search_nav_5_active.svg" class="active" alt="">
+                                <img src="" alt="">
+                                <span>Авиабилеты</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Navs end -->
+
+                    <form action="" class="search__form">
+                        <div class="inputs">
+                            <input type="text">
+                            <input type="text">
+                        </div>
+                        <input type="text">
+                        <button type="submit" class="btn_yellow">Найти</button>
+                    </form>
+                </div>
+            </section>
+            <!-- Search end -->
+
+            <!-- Schedule -->
+            <section class="schedule">
+                <div class="main_container schedule__container">
+                    <h2 class="schedule__title">Расписание поездов по станции Иваново</h2>
+                    <div class="parent_tab__head">
+                        <div class="parent_tab__btn">
+                            <button class="active">Отправление</button>
+                            <button>Прибытие</button>
+                        </div>
+                        <div class="inp">
+                            <img src="./images/search.svg" alt="">
+                            <input type="text" placeholder="Город, станция или номер поезда">
+                        </div>
+                    </div>
+
+                    <div class="parent_tab__item active">
+                        <div class="child_tab__head">
+                            <button class="active">Поезда</button>
+                            <button>Электрички</button>
+                        </div>
+
+                        <div class="child_tab__item active">
+                            <div class="local_time">
+                                <span class="title">23 июля, суббота</span>
+                                <div class="warning">
+                                    <img src="./images/warning-green.svg" alt="">
+                                    <span>Указано местное время</span>
+                                </div>
+                            </div>
+
+                            <div class="accordion_wrap">
+                                <div class="accordion show">
+                                    <div class="accordion__head">
+                                        <span>Показать ушедшие (4 поезда)</span>
+                                        <span>Скрыть ушедшие (4 поезда)</span>
+                                        <img src="./images/arrow-down-yellow.svg" alt="">
+                                        <img src="./images/arrow-down-blue.svg" class="sm" alt="">
+                                    </div>
+                                    <div class="accordion__body">
+                                        <ul class="disabled">
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                        <span>30 сентября</span>
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                    <div class="place sm">
+                                                        <div class="place_text__wrap">
+                                                            <div class="place_text">
+                                                                <span>Откуда</span>
+                                                                Санкт-Петербург
+                                                            </div>
+                                                            <div class="place_text">
+                                                                <span>Куда</span>
+                                                                Нижний Новгород
+                                                            </div>
+                                                            <p>фирменный «Текстильный край»</p>
+                                                        </div>
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                    <div class="place sm">
+                                                        <div class="place_text__wrap">
+                                                            <div class="place_text">
+                                                                <span>Откуда</span>
+                                                                Санкт-Петербург
+                                                            </div>
+                                                            <div class="place_text">
+                                                                <span>Куда</span>
+                                                                Нижний Новгород
+                                                            </div>
+                                                        </div>
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                    <div class="place sm">
+                                                        <div class="place_text__wrap">
+                                                            <div class="place_text">
+                                                                <span>Откуда</span>
+                                                                Санкт-Петербург
+                                                            </div>
+                                                            <div class="place_text">
+                                                                <span>Куда</span>
+                                                                Нижний Новгород
+                                                            </div>
+                                                        </div>
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                    <div class="place sm">
+                                                        <div class="place_text__wrap">
+                                                            <div class="place_text">
+                                                                <span>Откуда</span>
+                                                                Санкт-Петербург
+                                                            </div>
+                                                            <div class="place_text">
+                                                                <span>Куда</span>
+                                                                Нижний Новгород
+                                                            </div>
+                                                        </div>
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="accordion show">
+                                    <div class="accordion__head">
+                                        <span>Показать ушедшие (4 поезда)</span>
+                                        <span>Скрыть ушедшие (4 поезда)</span>
+                                        <img src="./images/arrow-down-yellow.svg" alt="">
+                                        <img src="./images/arrow-down-blue.svg" class="sm" alt="">
+                                    </div>
+                                    <div class="accordion__body">
+                                        <ul>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                    <div class="place sm">
+                                                        <div class="place_text__wrap">
+                                                            <div class="place_text">
+                                                                <span>Откуда</span>
+                                                                Санкт-Петербург
+                                                            </div>
+                                                            <div class="place_text">
+                                                                <span>Куда</span>
+                                                                Нижний Новгород
+                                                            </div>
+                                                        </div>
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                    <div class="place sm">
+                                                        <div class="place_text__wrap">
+                                                            <div class="place_text">
+                                                                <span>Откуда</span>
+                                                                Санкт-Петербург
+                                                            </div>
+                                                            <div class="place_text">
+                                                                <span>Куда</span>
+                                                                Нижний Новгород
+                                                            </div>
+                                                        </div>
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                    <div class="place sm">
+                                                        <div class="place_text__wrap">
+                                                            <div class="place_text">
+                                                                <span>Откуда</span>
+                                                                Санкт-Петербург
+                                                            </div>
+                                                            <div class="place_text">
+                                                                <span>Куда</span>
+                                                                Нижний Новгород
+                                                            </div>
+                                                        </div>
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                    <div class="place sm">
+                                                        <div class="place_text__wrap">
+                                                            <div class="place_text">
+                                                                <span>Откуда</span>
+                                                                Санкт-Петербург
+                                                            </div>
+                                                            <div class="place_text">
+                                                                <span>Куда</span>
+                                                                Нижний Новгород
+                                                            </div>
+                                                        </div>
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                    <div class="place sm">
+                                                        <div class="place_text__wrap">
+                                                            <div class="place_text">
+                                                                <span>Откуда</span>
+                                                                Санкт-Петербург
+                                                            </div>
+                                                            <div class="place_text">
+                                                                <span>Куда</span>
+                                                                Нижний Новгород
+                                                            </div>
+                                                        </div>
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                        <span>30 сентября</span>
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                    <div class="place sm">
+                                                        <div class="place_text__wrap">
+                                                            <div class="place_text">
+                                                                <span>Откуда</span>
+                                                                Санкт-Петербург
+                                                            </div>
+                                                            <div class="place_text">
+                                                                <span>Куда</span>
+                                                                Нижний Новгород
+                                                            </div>
+                                                        </div>
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="show_more">
+                                <a href="#">Показать еще</a>
+                            </div>
+
+                            <p class="description">Онлайн-табло по станции Иваново. Расписание движения поездов дальнего следования от станции Иваново на 2024 год с учетом изменений. Даты изменения и дни курсирования поездов, отправляющихся после полуночи, относятся к новым суткам. Чтобы узнать цену билета на поезда РЖД, выберите станции отправления и назначения.</p>
+                        </div>
+
+                        <div class="child_tab__item">
+                            <div class="local_time">
+                                <span class="title">23 июля, суббота 2</span>
+                                <div class="warning">
+                                    <img src="./images/warning-green.svg" alt="">
+                                    <span>Указано местное время 2</span>
+                                </div>
+                            </div>
+
+                            <div class="accordion_wrap">
+                                <div class="accordion show">
+                                    <div class="accordion__head">
+                                        <span>Показать ушедшие (4 поезда)</span>
+                                        <span>Скрыть ушедшие (4 поезда)</span>
+                                        <img src="./images/arrow-down-yellow.svg" alt="">
+                                        <img src="./images/arrow-down-blue.svg" class="sm" alt="">
+                                    </div>
+                                    <div class="accordion__body">
+                                        <ul class="disabled">
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                        <span>30 сентября</span>
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="accordion show">
+                                    <div class="accordion__head">
+                                        <span>Показать ушедшие (4 поезда)</span>
+                                        <span>Скрыть ушедшие (4 поезда)</span>
+                                        <img src="./images/arrow-down-yellow.svg" alt="">
+                                        <img src="./images/arrow-down-blue.svg" class="sm" alt="">
+                                    </div>
+                                    <div class="accordion__body">
+                                        <ul>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                        <span>30 сентября</span>
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <p class="description">Онлайн-табло по станции Иваново. Расписание движения поездов дальнего следования от станции Иваново на 2024 год с учетом изменений. Даты изменения и дни курсирования поездов, отправляющихся после полуночи, относятся к новым суткам. Чтобы узнать цену билета на поезда РЖД, выберите станции отправления и назначения.</p>
+                        </div>
+                    </div>
+
+                    <div class="parent_tab__item">
+                        <div class="child_tab__head">
+                            <button class="active">Поезда 2</button>
+                            <button>Электрички 2</button>
+                        </div>
+
+                        <div class="child_tab__item active">
+                            <div class="local_time">
+                                <span class="title">23 июля, суббота</span>
+                                <div class="warning">
+                                    <img src="./images/warning-green.svg" alt="">
+                                    <span>Указано местное время</span>
+                                </div>
+                            </div>
+
+                            <div class="accordion_wrap">
+                                <div class="accordion show">
+                                    <div class="accordion__head">
+                                        <span>Показать ушедшие (4 поезда)</span>
+                                        <span>Скрыть ушедшие (4 поезда)</span>
+                                        <img src="./images/arrow-down-yellow.svg" alt="">
+                                        <img src="./images/arrow-down-blue.svg" class="sm" alt="">
+                                    </div>
+                                    <div class="accordion__body">
+                                        <ul class="disabled">
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                        <span>30 сентября</span>
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="accordion show">
+                                    <div class="accordion__head">
+                                        <span>Показать ушедшие (4 поезда)</span>
+                                        <span>Скрыть ушедшие (4 поезда)</span>
+                                        <img src="./images/arrow-down-yellow.svg" alt="">
+                                        <img src="./images/arrow-down-blue.svg" class="sm" alt="">
+                                    </div>
+                                    <div class="accordion__body">
+                                        <ul>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                        <span>30 сентября</span>
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <p class="description">Онлайн-табло по станции Иваново. Расписание движения поездов дальнего следования от станции Иваново на 2024 год с учетом изменений. Даты изменения и дни курсирования поездов, отправляющихся после полуночи, относятся к новым суткам. Чтобы узнать цену билета на поезда РЖД, выберите станции отправления и назначения.</p>
+                        </div>
+
+                        <div class="child_tab__item">
+                            <div class="local_time">
+                                <span class="title">23 июля, суббота 2</span>
+                                <div class="warning">
+                                    <img src="./images/warning-green.svg" alt="">
+                                    <span>Указано местное время 2</span>
+                                </div>
+                            </div>
+
+                            <div class="accordion_wrap">
+                                <div class="accordion show">
+                                    <div class="accordion__head">
+                                        <span>Показать ушедшие (4 поезда)</span>
+                                        <span>Скрыть ушедшие (4 поезда)</span>
+                                        <img src="./images/arrow-down-yellow.svg" alt="">
+                                        <img src="./images/arrow-down-blue.svg" class="sm" alt="">
+                                    </div>
+                                    <div class="accordion__body">
+                                        <ul class="disabled">
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                        <span>30 сентября</span>
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="accordion show">
+                                    <div class="accordion__head">
+                                        <span>Показать ушедшие (4 поезда)</span>
+                                        <span>Скрыть ушедшие (4 поезда)</span>
+                                        <img src="./images/arrow-down-yellow.svg" alt="">
+                                        <img src="./images/arrow-down-blue.svg" class="sm" alt="">
+                                    </div>
+                                    <div class="accordion__body">
+                                        <ul>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                            <li>
+                                                <div class="time">
+                                                    <div class="date">
+                                                        01:20
+                                                        <span>30 сентября</span>
+                                                    </div>
+                                                    <div class="place">
+                                                        Иваново — Санкт-Петербург
+                                                        <span>718И</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn_green">Купить билет</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <p class="description">Онлайн-табло по станции Иваново. Расписание движения поездов дальнего следования от станции Иваново на 2024 год с учетом изменений. Даты изменения и дни курсирования поездов, отправляющихся после полуночи, относятся к новым суткам. Чтобы узнать цену билета на поезда РЖД, выберите станции отправления и назначения.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Schedule end -->
+
+            <!-- Route -->
+            <section class="route">
+                <div class="main_container route__container">
+                    <div class="route__card">
+                        <h3>Популярные маршруты</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="text">
+                                        <span class="text_right">
+                                            <span class="title">Москва — Санкт-Петербург</span>
+                                            <span class="price">от 1 500₽</span>
+                                        </span>
+                                    </span>
+                                    <img src="./images/arrow-right.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="text">
+                                        <span class="text_right">
+                                            <span class="title">Москва — Санкт-Петербург</span>
+                                            <span class="price">от 1 500₽</span>
+                                        </span>
+                                    </span>
+                                    <img src="./images/arrow-right.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="text">
+                                        <span class="text_right">
+                                            <span class="title">Москва — Санкт-Петербург</span>
+                                            <span class="price">от 1 500₽</span>
+                                        </span>
+                                    </span>
+                                    <img src="./images/arrow-right.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="text">
+                                        <span class="text_right">
+                                            <span class="title">Москва — Санкт-Петербург</span>
+                                            <span class="price">от 1 500₽</span>
+                                        </span>
+                                    </span>
+                                    <img src="./images/arrow-right.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="text">
+                                        <span class="text_right">
+                                            <span class="title">Москва — Санкт-Петербург</span>
+                                            <span class="price">от 1 500₽</span>
+                                        </span>
+                                    </span>
+                                    <img src="./images/arrow-right.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="route__card">
+                        <h3>В гости к соседям</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="text">
+                                        <img src="./images/flag_1.svg" alt="">
+                                        <span class="text_right">
+                                            <span class="title">Москва — Минск</span>
+                                            <span class="price">Минск</span>
+                                        </span>
+                                    </span>
+                                    <img src="./images/arrow-right.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="text">
+                                        <img src="./images/flag_2.svg" alt="">
+                                        <span class="text_right">
+                                            <span class="title">Москва — Рига</span>
+                                            <span class="price">Латвия</span>
+                                        </span>
+                                    </span>
+                                    <img src="./images/arrow-right.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="text">
+                                        <img src="./images/flag_3.svg" alt="">
+                                        <span class="text_right">
+                                            <span class="title">Омск — Петропавловск</span>
+                                            <span class="price">Казахстан</span>
+                                        </span>
+                                    </span>
+                                    <img src="./images/arrow-right.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="text">
+                                        <img src="./images/flag_4.svg" alt="">
+                                        <span class="text_right">
+                                            <span class="title">Ростов-на-Дону — Гагра</span>
+                                            <span class="price">Грузия</span>
+                                        </span>
+                                    </span>
+                                    <img src="./images/arrow-right.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="text">
+                                        <img src="./images/flag_1.svg" alt="">
+                                        <span class="text_right">
+                                            <span class="title">Санкт-Петербург — Минск</span>
+                                            <span class="price">Минск</span>
+                                        </span>
+                                    </span>
+                                    <img src="./images/arrow-right.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- Route end -->
+
+            <!-- Map -->
+            <section class="map">
+                <div class="main_container map__container">
+                    <div class="map__left">
+                        <img src="./images/map_icon.png" alt="" class="icon">
+                        <h2>Карта вокзалов</h2>
+                        <p>Собрали список всех вокзалов страны</p>
+                        <a href="#" class="btn_yellow">Открыть</a>
+                    </div>
+                    <img src="./images/map.png" alt="" class="map__right">
+                </div>
+            </section>
+            <!-- Map end -->
+
+            <!-- Services -->
+            <section class="service">
+                <div class="main_container service__container">
+                    
+                    <div class="service__card">
+                        <h3>Полезные сервисы</h3>
+                        <ul>
+                            <li>
+                                <img src="./images/service_icon_1.png" alt="">
+                                <div class="text">
+                                    <span>Чек-лист путешественника</span>
+                                    Что взять с собой в поездку
+                                </div>
+                            </li>
+                            <li>
+                                <img src="./images/service_icon_2.png" alt="">
+                                <div class="text">
+                                    <span>Чек-лист путешественника</span>
+                                    Что взять с собой в поездку
+                                </div>
+                            </li>
+                            <li>
+                                <img src="./images/service_icon_3.png" alt="">
+                                <div class="text">
+                                    <span>Чек-лист путешественника</span>
+                                    Что взять с собой в поездку
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service__card">
+                        <h3>Полезные сервисы</h3>
+                        <ul>
+                            <li>
+                                <img src="./images/service_icon_4.png" alt="">
+                                <div class="text">
+                                    <span>Чек-лист путешественника</span>
+                                    Что взять с собой в поездку
+                                </div>
+                            </li>
+                            <li>
+                                <img src="./images/service_icon_5.png" alt="">
+                                <div class="text">
+                                    <span>Чек-лист путешественника</span>
+                                    Что взять с собой в поездку
+                                </div>
+                            </li>
+                            <li>
+                                <img src="./images/service_icon_6.png" alt="">
+                                <div class="text">
+                                    <span>Чек-лист путешественника</span>
+                                    Что взять с собой в поездку
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+            <!-- Services end -->
+
+            <!-- Travel -->
+            <section class="travel">
+                <div class="main_container travel__container">
+                    <div class="travel__head">
+                        <h2>Едем на море!</h2>
+
+                        <div class="swiper_btn">
+                            <button class="swiper_btn__prev">
+                                <img src="./images/swp_btn.svg" alt="">
+                            </button>
+                            <button class="swiper_btn__next">
+                                <img src="./images/swp_btn.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+
+                            <a href="#" class="swiper-slide travel__card">
+                                <img src="./images/travel_card_1.png" alt="" class="main_img">
+                                <h5 class="alert">от 1 500₽</h5>
+                                <div class="travel__card_body">
+                                    <h4>Симферополь</h4>
+                                    <p>из Москвы</p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="swiper-slide travel__card">
+                                <img src="./images/travel_card_1.png" alt="" class="main_img">
+                                <h5 class="alert">от 1 500₽</h5>
+                                <div class="travel__card_body">
+                                    <h4>Симферополь</h4>
+                                    <p>из Москвы</p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="swiper-slide travel__card">
+                                <img src="./images/travel_card_1.png" alt="" class="main_img">
+                                <h5 class="alert">от 1 500₽</h5>
+                                <div class="travel__card_body">
+                                    <h4>Симферополь</h4>
+                                    <p>из Москвы</p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="swiper-slide travel__card">
+                                <img src="./images/travel_card_1.png" alt="" class="main_img">
+                                <h5 class="alert">от 1 500₽</h5>
+                                <div class="travel__card_body">
+                                    <h4>Симферополь</h4>
+                                    <p>из Москвы</p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="swiper-slide travel__card">
+                                <img src="./images/travel_card_1.png" alt="" class="main_img">
+                                <h5 class="alert">от 1 500₽</h5>
+                                <div class="travel__card_body">
+                                    <h4>Симферополь</h4>
+                                    <p>из Москвы</p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="swiper-slide travel__card">
+                                <img src="./images/travel_card_1.png" alt="" class="main_img">
+                                <h5 class="alert">от 1 500₽</h5>
+                                <div class="travel__card_body">
+                                    <h4>Симферополь</h4>
+                                    <p>из Москвы</p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="swiper-slide travel__card">
+                                <img src="./images/travel_card_1.png" alt="" class="main_img">
+                                <h5 class="alert">от 1 500₽</h5>
+                                <div class="travel__card_body">
+                                    <h4>Симферополь</h4>
+                                    <p>из Москвы</p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="swiper-slide travel__card">
+                                <img src="./images/travel_card_1.png" alt="" class="main_img">
+                                <h5 class="alert">от 1 500₽</h5>
+                                <div class="travel__card_body">
+                                    <h4>Симферополь</h4>
+                                    <p>из Москвы</p>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="main_container travel__bottom">
+
+                    <li>
+                        <a href="#">
+                            <img src="./images/travel_card_2.png" alt="" class="main_img">
+                            <h5 class="alert">Санкт-Петербург от 1 500₽</h5>
+                            <div class="content">
+                                <h2>Ботанический сад</h2>
+                                <p>Народный целитель доктор Попов порадовался бы, что у петербуржцев есть островок зелени</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img src="./images/travel_card_3.png" alt="" class="main_img">
+                            <h5 class="alert">Минеральные Воды от 1 500₽</h5>
+                            <div class="content">
+                                <h2>Филармония им. Сафонова</h2>
+                                <p>Грязь и минералка — это, конечно, прекрасно, но вы пробовали слушать Берлиоза после</p>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </section>
+            <!-- Travel end -->
+
+            <!-- Download -->
+            <section class="download">
+                <div class="main_container download__container">
+                    <div class="circle"></div>
+                    <img src="./images/download_phone.webp" width="190" height="303" alt="" class="phone">
+                    <img src="./images/qr.webp" width="168" height="168" alt="" class="qr">
+                    <h3>Скачайте приложение</h3>
+                    <p class="download__description">Отсканируйте QR-код и получайте двойные бонусы за покупку билетов и бронирование отелей.</p>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="./images/download_icon_1.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/download_icon_2.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/download_icon_3.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/download_icon_4.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="description">Доступно в Apple Store, Google Play, App Gallery и Rustore.</p>
+                </div>
+            </section>
+            <!-- Download end -->
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="main_container">
+                <p>© 2007–2024, «На поезд» — поиск дешёвых ЖД билетов</p>
+            </div>
+        </footer>
+        <!-- Footer end -->
+
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- JS file -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
