@@ -376,18 +376,8 @@ h3 {
         }
     }
 
-    @keyframes menEndActive {
-        from {
-            display: flex;
-        }
-        to {
-            display: flex;
-        }
-    }
-
     &.end-active {
-        display: none;
-        animation: menEndActive .3s linear 1;
+        display: flex;
 
         @keyframes menuBgEndActive {
             from {

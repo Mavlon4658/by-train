@@ -327,17 +327,8 @@ h3 {
 .menu_modal.active .menu_modal__content {
   animation: menuContentActive 0.25s linear 1;
 }
-@keyframes menEndActive {
-  from {
-    display: flex;
-  }
-  to {
-    display: flex;
-  }
-}
 .menu_modal.end-active {
-  display: none;
-  animation: menEndActive 0.3s linear 1;
+  display: flex;
 }
 @keyframes menuBgEndActive {
   from {

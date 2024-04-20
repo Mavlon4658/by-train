@@ -129,6 +129,9 @@ menuModalClose.forEach(btn => {
     btn.onclick = () => {
         menuModal.classList.remove('active');
         menuModal.classList.add('end-active');
+        setTimeout(() => {
+            menuModal.classList.remove('end-active');
+        }, 300);
         document.querySelector('body').style.overflow = 'visible'
     }
 })
