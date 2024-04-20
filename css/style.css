@@ -314,7 +314,7 @@ h3 {
   }
 }
 .menu_modal.active .menu_modal__bg {
-  animation: menuBgActive 0.2s linear 1;
+  animation: menuBgActive 0.25s linear 1;
 }
 @keyframes menuContentActive {
   from {
@@ -325,7 +325,7 @@ h3 {
   }
 }
 .menu_modal.active .menu_modal__content {
-  animation: menuContentActive 0.2s linear 1;
+  animation: menuContentActive 0.25s linear 1;
 }
 @keyframes menEndActive {
   from {
@@ -337,7 +337,7 @@ h3 {
 }
 .menu_modal.end-active {
   display: none;
-  animation: menEndActive 0.2s linear 1;
+  animation: menEndActive 0.3s linear 1;
 }
 @keyframes menuBgEndActive {
   from {
@@ -349,7 +349,7 @@ h3 {
 }
 .menu_modal.end-active .menu_modal__bg {
   opacity: 0;
-  animation: menuBgEndActive 0.2s linear 1;
+  animation: menuBgEndActive 0.3s linear 1;
 }
 @keyframes menuContentEndActive {
   from {
@@ -363,7 +363,7 @@ h3 {
 }
 .menu_modal.end-active .menu_modal__content {
   opacity: 0;
-  animation: menuContentEndActive 0.2s linear 1;
+  animation: menuContentEndActive 0.3s linear 1;
 }
 
 .home {
